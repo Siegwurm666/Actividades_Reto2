@@ -1,7 +1,13 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
 }
 
+body{
+    margin: 100px;
+}
+/*Menu*/
 nav{
     display: flex;
     list-style: none;
@@ -10,4 +16,77 @@ nav{
 nav a{
     text-decoration: none;
     padding: 20px;
+}
+
+/*Main*/
+main{
+    padding: 20px;
+    border-left: 2px solid #333;
+    width: 70%;
+}
+
+main section{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Contenido{
+    display: flex;
+    list-style: none;
+    padding-block-end: 20px;
+}
+
+.Contenido span{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.Contenido a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.Poste{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nombre{
+    color: aqua;
+}
+
+section{
+    border-bottom: 2px dashed #333;
+}
+
+section p{
+    padding-bottom: 15px;
+}
+
+section h2{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#contenedor{
+    display: flex;
+}
+
+/*aside*/
+aside{
+    width: 30%;
+}
+
+aside li{
+    list-style: none;
+    padding: 5px;
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: #6f6f6f;
+
 }
