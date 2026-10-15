@@ -1,0 +1,13 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+}
