@@ -8,19 +8,34 @@
 </head>
     <body>
         <nav>
-            <li><a href="" class="selected">HOME</a></li>
-            <li><a href="">NOSOTROS</a></li>
-            <li><a href="">ENLACES</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACTO</a></li>
+            <ul>
+                <li class="selected"><a href="" class="selected">HOME</a></li>
+                <li><a href="">NOSOTROS</a></li>
+                <li><a href="">ENLACES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
         </nav>
+        <div id="Contenidos">
         <header>
-            <h1>Los búfalos</h1>
-            <h4>El bisonte americano</h4>
-            <img src="img/img_bufalos_pic1.jpg" alt="Bisontes comiendo" title="Bisontes comiendo">
+            <div class="carrusel-contenedor">
+                <h1>Los búfalos</h1>
+                <h4>El bisonte americano</h4>
+                <div class="carrusel">
+                    <img src="img/img_bufalos_pic1.jpg" alt="Bisontes comiendo" title="Bisontes comiendo">
+                    <img src="img/img_bufalos_pic2.jpg" alt="Bisontes en corral" title="Bisonte en el corral">
+                    <img src="img/img_bufalos_pic3.jpg" alt="Dos Bisontes" title="dos bisontes">
+                    <img src="img/img_bufalos_pic4.jpg" alt="Un bufalo depresivo en un corral " title="Un bufalo depresivo">
+                    <!--2 Carrusel-->
+                    <img src="img/img_bufalos_pic1.jpg" alt="Bisontes comiendo" title="Bisontes comiendo">
+                    <img src="img/img_bufalos_pic2.jpg" alt="Bisontes en corral" title="Bisonte en el corral">
+                    <img src="img/img_bufalos_pic3.jpg" alt="Dos Bisontes" title="dos bisontes">
+                    <img src="img/img_bufalos_pic4.jpg" alt="Un bufalo depresivo en un corral " title="Un bufalo depresivo">
+                </div>
+            </div>
         </header>
         <div id="contenedor">
-        <aside>
+        <section class="categoria">
             <div>
                 <h3>La cacería del bisonte americano</h3>
                 <p>La matanza del bisonte y su regreso a las grandes llanuras</p>
@@ -46,7 +61,7 @@
                 <li>Fagan, Brian. Ancient North America. 2005. Thames and Hudson</li>
                 <li>Koller, Larry. Fireside Book of Guns. 1959 Simon and Schuster</li>
             </div>
-        </aside>
+        </section>
         <main>
             <section>
                 <article>
@@ -59,12 +74,12 @@
                         <p>El <strong>bisonte americano (Bison bison)</strong>, también denominado <strong>búfalo</strong>, y —palabra en desuso— <strong>cíbolo</strong>, es una especie de gran mamífero artiodáctilo de la familia de los bóvidos (Bovidae). Solía habitar en las planicies del norte de México, los Estados Unidos y Canadá en grandes manadas, abarcando desde el Gran Lago del Esclavo hasta México y desde el este de Oregón hasta los Montes Apalaches. En referencia a esta especie, el término "búfalo," que data de 1635, tiene más historia que el concepto "bisonte," registrado en 1774.</p>
                         <p>Se ha reintroducido al bisonte americano en las planicies del norte de México, esperando una pronta recuperación de la especie donde solía pastar en siglos anteriores.</p>
                     </div>
+                    <div class="Contenido">
+                        <li><a href="">Leer más</a></li>
+                        <span>|</span>
+                        <li><a href="">comentarios</a></li>
+                    </div>
                 </article>
-                <div class="Contenido">
-                    <li><a href="">Leer más</a></li>
-                    <span>|</span>
-                    <li><a href="">comentarios</a></li>
-                </div>
             </section>
             <section>
                 <article>
@@ -76,12 +91,12 @@
                     <div>
                         <p>Los bisontes tienen un pelaje de color marrón oscuro durante el invierno, y uno más liviano de color marrón claro durante el verano. Llegan a medir hasta 1,80m de alto y 3m de largo, y pesan de 450 a 1.350kg. Tanto el macho como la hembra tienen pequeños cuernos curvos, los cuales usan para luchar en época de celo y como defensa.</p>      
                     </div>
+                    <div class="Contenido">
+                        <li><a href="">Leer más</a></li>
+                        <span>|</span>
+                        <li><a href="">comentarios</a></li>
+                    </div>                    
                 </article>
-                <div class="Contenido">
-                    <li><a href="">Leer más</a></li>
-                    <span>|</span>
-                    <li><a href="">comentarios</a></li>
-                </div>
             </section>
             <section>
                 <article>
@@ -94,12 +109,12 @@
                         <p>El bisonte americano es herbívoro; come hierbas y juncos. El bisonte se aparea en agosto y septiembre; y es polígamo. Su período de gestación dura entre 260 y 280 días, tras el cual nace una sola cría que es cuidada durante un año. Los bisontes llegan a su madurez a los 3 años de vida, y su promedio de vida es de 18 a 22 años.</p>
                         <p>Estos animales constituían la principal fuente de alimentación para los indígenas americanos de las Grandes Llanuras.</p>
                     </div>
+                    <div class="Contenido">
+                        <li><a href="">Leer más</a></li>
+                        <span>|</span>
+                        <li><a href="">comentarios</a></li>
+                    </div>                    
                 </article>
-                <div class="Contenido">
-                    <li><a href="">Leer más</a></li>
-                    <span>|</span>
-                    <li><a href="">comentarios</a></li>
-                </div>
             </section>
             <section>
                 <article>
@@ -115,14 +130,15 @@
                         A la llegada de los españoles a América, era tal la cantidad de bisontes o cíbolos que los conquistadores encontraron en las grandes praderas norteamericanas, que llamaron a la extensa región limitada por las Montañas Rocosas al Oeste, y los montes Apalaches al Este, «Llanos de Cíbola», y fue a esa región a la que se dirigió Francisco Vázquez de Coronado en busca de las míticas Siete Ciudades de Cíbola.
                         </p>
                     </div>
+                        <div class="Contenido">
+                        <li><a href="">Leer más</a></li>
+                        <span>|</span>
+                        <li><a href="">comentarios</a></li>
+                    </div>
                 </article>
-                <div class="Contenido">
-                    <li><a href="">Leer más</a></li>
-                    <span>|</span>
-                    <li><a href="">comentarios</a></li>
-                </div>
             </section>
         </main>
+        </div>
         </div>
         <footer>
             <p>Copyright © Los Bisontes. Todos los derechos reservados.</p>
